@@ -1,10 +1,9 @@
-Total bytecount: 22887
-Files list: 
-------------------- 
+Total bytecount:22881
+Files list:
+--------------
 .DS_Store
 ospathutils_finished.py
 shell_start.py
-sfdfg
 testzip.zip
 files_finished.py
 textfile.txt.bak
