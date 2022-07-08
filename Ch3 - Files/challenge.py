@@ -1,6 +1,5 @@
 # make a program to make a new directory with a txt file in it
 # the txt file needs to have all the names of the files listed and the bytes of all of them
-#
 # define a function
 # use listdir() to return a list containing the names of the entries in the directory given by path
 # use mkdir() to create a directory for the new .txt file
