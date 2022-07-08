@@ -6,6 +6,7 @@
 
 import urllib.request  # instead of urllib2 like in Python 2.7
 import json
+import ssl
 
 
 def printResults(data):
@@ -45,6 +46,7 @@ def main():
     # define a variable to hold the source URL
     # In this case we'll use the free data feed from the USGS
     # This feed lists all earthquakes for the last day larger than Mag 2.5
+    ssl._create_default_https_context = ssl._create_unverified_context
     urlData = "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/2.5_day.geojson"
 
     # Open the URL and read the data
